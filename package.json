@@ -1,0 +1,32 @@
+{
+  "name": "TravelApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gitignore": "^0.6.0",
+    "helmet": "^3.23.3",
+    "knex": "^0.21.2",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awy64/TravelApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awy64/TravelApp/issues"
+  },
+  "homepage": "https://github.com/Awy64/TravelApp#readme"
+}
